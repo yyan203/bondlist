@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:atom.h">
+   </FileRef>
+   <FileRef
+      location = "group:bond.h">
+   </FileRef>
+   <FileRef
+      location = "group:readdata.h">
+   </FileRef>
+   <FileRef
+      location = "group:simulationbox.h">
+   </FileRef>
+   <FileRef
+      location = "container:create_bond_list_lammps_readdata.cxx">
+   </FileRef>
+</Workspace>
