@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 {
 
     // This code is used to calculate bonds from xyz file,
-    // The output is used as input for Moltemplate to further generate Angle, Dihedral, Improper angles
+    // The output is used as input for Moltemplate to further generate Angle, Dihedral, Improper angles.
 
     char inputfilename[100], outputfilename[100];
 
