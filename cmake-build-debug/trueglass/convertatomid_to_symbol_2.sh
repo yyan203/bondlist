@@ -3,8 +3,8 @@
 sed "1,2d" trueglasszif4.xyz > trueglasszif4_2.xyz
 
 INPUTFILE="trueglasszif4_2.xyz" # delete first two lines please
-OUT="trueglassout"
-OUTFILE="trueglassout2"
+OUT="glassbondlist_right"
+OUTFILE="glassbond4Moltemplate"
 # awk 'BEGIN{
 # Zn=C=N=H=1;
 # id=1;

@@ -11,15 +11,21 @@
    // define bond length within which two atoms form a bond
 std::unordered_map<std::string, float > bondlen{
   {"Zn-N" , 1.970000 },
+  {"N-Zn" , 1.970000 },
   {"H-C"  , 1.020000 },
+  {"C-H"  , 1.020000 },
   {"C-N"  , 1.340000 },
-  {"C-C"  , 1.390000 } 
+  {"N-C"  , 1.340000 },
+  {"C-C"  , 1.390000 },
 };
-
+// new
 std::unordered_map<std::string, int > bondtype{
         {"Zn-N" , 1},
+        {"N-Zn" , 1},
         {"H-C"  , 2},
+        {"C-H"  , 2},
         {"C-N"  , 3},
+        {"N-C"  , 3},
         {"C-C"  , 4}
 };
 
@@ -63,7 +69,7 @@ public:
         bondname += B->type_;
         auto got = bondtype.find(bondname);
         if (got == bondtype.end()){return 0;}
-        if (this->distance(A, B, system) < 1.20 * bondlen[bondname]) {
+        if (this->distance(A, B, system) < 1.20 * bondlen[bondname]) {  // 1.15 is good enough for zif62
             // if (this->distance(A, B, system) < 1.18 * bondlen[bondname]) {
             return bondtype[bondname];
         }

@@ -1,0 +1,73 @@
+   106 Zn <bonds 1
+   ##add  106 7414 Zn N
+ 
+   139 Zn <bonds 1
+   ##add  139 7598 Zn N
+ 
+   157 Zn <bonds 1
+   ##add  157  7704 Zn N
+ 
+   174 Zn <bonds 1
+   ##add  174 7804  Zn N
+ 
+   279 Zn <bonds 1
+   ##add 279  8217 Zn N 
+ 
+   4043 C >bonds 1
+   ##row:5881 4  4043  4472
+ 
+   4225 C >bonds 2
+   ##row:6185 4  4225  5950
+   ##row:6186 4  4225  5951
+ 
+   4226 C >bonds 1
+   ##row:6188 4  4226  5951
+ 
+   4399 C >bonds 1
+   ##row:6478 4  4399  5573
+ 
+   4472 C >bonds 1
+   ##row:5881 4  4043  4472
+ 
+   4990 C >bonds 1
+   ##row:7464 4  4990  6088
+ 
+   5329 C >bonds 1
+   ##row:8031 4  5329  5605
+ 
+   5573 C >bonds 1
+   ##row:6478 4  4399  5573
+ 
+   5605 C >bonds 1
+   ##row:8031 4  5329  5605
+ 
+   5950 C >bonds 1
+   ##row:6185 4  4225  5950
+ 
+   5951 C >bonds 2
+   ##row:6186 4  4225  5951
+   ##row:6188 4  4226  5951
+ 
+   6008 C >bonds 1
+   ###row:9163 3  6008  8648
+ 
+   6088 C >bonds 1
+   ##row:7464 4  4990  6088
+ 
+   7414 N <bonds 1
+   ##add  106 7414 Zn N
+ 
+   7598 N <bonds 1
+   ##add  139 7598 Zn N
+ 
+   7704 N <bonds 1
+   ##add  157  7704 Zn N
+ 
+   7804 N <bonds 1
+   ##add  174 7804  Zn N
+ 
+   8217 N <bonds 1
+   ##add 279  8217 Zn N 
+
+   8648 N >bonds 1
+   ###row:9163 3  6008  8648
