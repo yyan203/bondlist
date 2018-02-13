@@ -44,7 +44,7 @@ int main(int argc, char **argv)
 
     if(argc != 7) {
         // Provide the correct syntax of this analysis code
-        printf("Correct syntax: md.analysis.cxx inputfile outputfile cellsize BoxLengthx Boxlengthy Boxlengthz\n");
+        printf("Correct syntax: md.analysis.cxx inputfile(type x y z) outputfile cellsize BoxLengthx Boxlengthy Boxlengthz\n");
         exit(0);
     }
     else {
